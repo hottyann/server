@@ -1,7 +1,6 @@
 {
   "name": "hoge",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -40,5 +39,15 @@
     "undici": "^5.10.0",
     "util-deprecate": "^1.0.2",
     "ws": "^8.8.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hottyann/server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hottyann/server/issues"
+  },
+  "homepage": "https://github.com/hottyann/server#readme",
+  "description": ""
 }
