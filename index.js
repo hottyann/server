@@ -11,7 +11,7 @@ client.once("ready", async () => {
 client.on('messageCreate', message => {
   // 起動
   if (message.content === '!mcstart') {
-    axios.get(`${baseUrl}ec2-up`)
+    axios.get(`${baseUrl}/ec2-up`)
       .then(res => {
         message.reply(`マイクラサーバを起動しました。IPは${res.data}です。`)
       })
@@ -22,7 +22,7 @@ client.on('messageCreate', message => {
 
   // 停止
 if (message.content === '!mcstop') {
-  axios.get(`${baseUrl}ec2-down`)
+  axios.get(`${baseUrl}/ec2-down`)
     .then(res => {
       message.reply(`マイクラサーバを停止しました。`)
   })
