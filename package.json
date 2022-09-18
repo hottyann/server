@@ -3,6 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": "16.x"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "asynckit": "^0.4.0",
     "axios": "^0.27.2",
@@ -32,21 +40,5 @@
     "undici": "^5.10.0",
     "util-deprecate": "^1.0.2",
     "ws": "^8.8.1"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "engines": {
-    "node": "16.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hottyann/server.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/hottyann/server/issues"
-  },
-  "homepage": "https://github.com/hottyann/server#readme"
+  }
 }
