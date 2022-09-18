@@ -1,15 +1,8 @@
 {
-  "name": "hoge",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "hotaka.yamashina@icloud.com",
+  "bugs": {
+    "url": "https://github.com/hottyann/server/issues"
   },
-  "engines": {
-    "node": "16.x"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "asynckit": "^0.4.0",
     "axios": "^0.27.2",
@@ -40,14 +33,21 @@
     "util-deprecate": "^1.0.2",
     "ws": "^8.8.1"
   },
-  "devDependencies": {},
+  "description": "Bot for Discord",
+  "engines": {
+    "node": "16.x"
+  },
+  "homepage": "https://github.com/hottyann/server#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "my-discord-bot",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hottyann/server.git"
   },
-  "bugs": {
-    "url": "https://github.com/hottyann/server/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "homepage": "https://github.com/hottyann/server#readme",
-  "description": ""
+  "version": "1.0.0"
 }
